@@ -1,0 +1,11 @@
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+CreateEntityAtFirstArea("{0}", "violin.ent", false);
+SetEntityPos("{0}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
+
+CreateEntityAtFirstArea("{1}", "violin_bow.ent", false);
+SetEntityPos("{1}", baseX + 0.5f, baseY + 1.0f, baseZ + 0.0f);
+
+SetMessageExact("Here's a violin", 0.0f);

@@ -382,5 +382,11 @@
         "File": "hidden.payload",
         "Duration": "00:00:02",
         "Antidote": "hidden.anti.payload"
+    },
+    {
+        "Name": "Spawn a Violin",
+        "File": "violin.payload",
+        "Duration": null,
+        "Antidote": null
     }
 ]
