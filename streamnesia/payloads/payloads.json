@@ -352,5 +352,11 @@
         "File": "statue.payload",
         "Duration": null,
         "Antidote": null
+    },
+    {
+        "Name": "Spawn water monster",
+        "File": "spawn-water-monster.payload",
+        "Duration": null,
+        "Antidote": null
     }
 ]
