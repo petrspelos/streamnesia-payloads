@@ -1,0 +1,23 @@
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+CreateEntityAtFirstArea("{0}candle1", "candle_floor.ent", false);
+SetEntityPos("{0}candle1", baseX + 1.0f, baseY + 0.2f, baseZ + 0.0f);
+
+CreateEntityAtFirstArea("{0}candle2", "candle_floor.ent", false);
+SetEntityPos("{0}candle2", baseX - 1.0f, baseY + 0.2f, baseZ + 0.0f);
+SetLampLit("{0}candle2", false, false);
+
+CreateEntityAtFirstArea("{0}candle3", "candle_floor.ent", false);
+SetEntityPos("{0}candle3", baseX + 0.0f, baseY + 0.2f, baseZ + 1.0f);
+SetLampLit("{0}candle3", false, false);
+
+CreateEntityAtFirstArea("{0}candle4", "candle_floor.ent", false);
+SetEntityPos("{0}candle4", baseX + 0.0f, baseY + 0.2f, baseZ - 1.0f);
+SetLampLit("{0}candle4", false, false);
+
+SetPlayerCrouching(true);
+SetMessageExact("Relax... Light some candles...", 0.0f);
+
+StartPlayerLookAt("{0}candle1", 1.0f, 1.5f, "");

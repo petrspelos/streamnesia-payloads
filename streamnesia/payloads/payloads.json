@@ -340,5 +340,11 @@
         "File": "red_fog.payload",
         "Duration": null,
         "Antidote": null
+    },
+    {
+        "Name": "Relax with candles",
+        "File": "candles.payload",
+        "Duration": "00:00:15",
+        "Antidote": "candles.anti.payload"
     }
 ]
