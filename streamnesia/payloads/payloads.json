@@ -346,5 +346,11 @@
         "File": "candles.payload",
         "Duration": "00:00:15",
         "Antidote": "candles.anti.payload"
+    },
+    {
+        "Name": "Boxes at player (Jumpscare)",
+        "File": "statue.payload",
+        "Duration": null,
+        "Antidote": null
     }
 ]

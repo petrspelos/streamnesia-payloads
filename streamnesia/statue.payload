@@ -1,0 +1,16 @@
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+CreateEntityAtFirstArea("box1", "storage_box_wood01.ent", false);
+SetEntityPos("box1", baseX + 0.0f, baseY + 0.0f, baseZ + 0.0f);
+
+CreateEntityAtFirstArea("box2", "storage_box_wood01.ent", false);
+SetEntityPos("box2", baseX + 0.0f, baseY + 1.0f, baseZ + 0.0f);
+
+CreateEntityAtFirstArea("box3", "storage_box_wood01.ent", false);
+SetEntityPos("box3", baseX + 0.0f, baseY + 2.0f, baseZ + 0.0f);
+
+PlayGuiSound("24_iron_maiden.ogg", 1.0f);
+GivePlayerDamage(20.0f, "Claws", true, false);
+GiveSanityDamage(10.0f, true);
