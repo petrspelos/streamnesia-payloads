@@ -370,5 +370,11 @@
         "File": "naked-guy.payload",
         "Duration": null,
         "Antidote": null
+    },
+    {
+        "Name": "Spooky Skeleton Spelos",
+        "File": "spelos.payload",
+        "Duration": null,
+        "Antidote": null
     }
 ]

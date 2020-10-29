@@ -1,0 +1,9 @@
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+CreateEntityAtFirstArea("{0}", "SkeletonSpelos.ent", false); 
+SetEntityPos("{0}", baseX + 1.0f, baseY + 0.0f, baseZ + 0.0f);
+
+int seed = RandInt(1, 2);
+PlayGuiSound("spelos" + seed + ".ogg", 1.0f);
