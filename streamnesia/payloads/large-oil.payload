@@ -1,2 +1,3 @@
 SetMessageExact("You got a large oil!", 0.0f);
+PlayGuiSound("pick_potion.ogg", 1.0f);
 GiveItemFromFile("oil", "potion_oil_large.ent");
