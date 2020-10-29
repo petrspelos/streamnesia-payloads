@@ -338,8 +338,8 @@
     {
         "Name": "Red fog",
         "File": "red_fog.payload",
-        "Duration": null,
-        "Antidote": null
+        "Duration": "00:00:10",
+        "Antidote": "almost-blind.anti.payload"
     },
     {
         "Name": "Relax with candles",
