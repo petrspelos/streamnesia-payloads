@@ -1,0 +1,10 @@
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+CreateEntityAtFirstArea("{0}", "block_box_nonchar.ent", false); 
+SetEntityPos("{0}", baseX + 1.0f, baseY + 0.0f, baseZ + 0.0f);
+ReplaceEntity("{0}", "", "StreamnesiaNakey", "corpse_male.ent", false);
+
+PlayGuiSound("15_the_big_scream1.ogg", 1.0f);
+GiveSanityDamage(10.0f, true);

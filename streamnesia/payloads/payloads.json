@@ -364,5 +364,11 @@
         "File": "spawn-suitor.payload",
         "Duration": null,
         "Antidote": null
+    },
+    {
+        "Name": "Teleporting naked guy",
+        "File": "naked-guy.payload",
+        "Duration": null,
+        "Antidote": null
     }
 ]
