@@ -1,0 +1,103 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.328643 1.33566 -3.02862" CameraTarget="0.00203725 0.519791 0.356109" CameraZoom="2.66013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/SkeletonSpelos.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="SkeletonSpelos" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones>
+            <Bone ID="1" Name="Armature" />
+            <Bone ID="2" Name="Armature_Bone" />
+            <Bone ID="3" Name="Armature_Bone_001" />
+            <Bone ID="4" Name="Armature_Bone_002" />
+            <Bone ID="5" Name="Armature_Bone_003" />
+            <Bone ID="6" Name="Armature_Bone_004" />
+            <Bone ID="7" Name="Armature_Bone_005" />
+            <Bone ID="8" Name="Armature_Bone_006" />
+            <Bone ID="9" Name="Armature_Bone_007" />
+            <Bone ID="10" Name="Armature_Bone_008" />
+            <Bone ID="11" Name="Armature_Bone_009" />
+            <Bone ID="12" Name="Armature_Bone_010" />
+            <Bone ID="13" Name="Armature_Bone_011" />
+            <Bone ID="14" Name="Armature_Bone_020" />
+            <Bone ID="15" Name="Armature_Bone_012" />
+            <Bone ID="16" Name="Armature_Bone_013" />
+            <Bone ID="17" Name="Armature_Bone_014" />
+            <Bone ID="18" Name="Armature_Bone_015" />
+            <Bone ID="19" Name="Armature_Bone_016" />
+            <Bone ID="20" Name="Armature_Bone_017" />
+            <Bone ID="21" Name="Armature_Bone_018" />
+            <Bone ID="22" Name="Armature_Bone_019" />
+            <Bone ID="23" Name="SkeletonSpelos" />
+        </Bones>
+        <Shapes>
+            <BodyShape Active="true" ID="24" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="0.25 1 0.25" RelativeTranslation="0 0 0" Rotation="0 -0 0" Scale="0.25 1 0.25" ShapeType="Cylinder" Tag="" WorldPos="0 0.5 0" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="25" LinearDamping="0" Mass="0" Material="Default" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0 0.5 0">
+                <Shape ID="24" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations>
+            <Animation File="C:/dev/Amnesia The Dark Descent/entities/SPHW_NPCs/Spelos/Animations/SkeletonSpelos_WildRide.dae_ANIM" Name="Ride" SpecialEventTime="1.71683e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/entities/SPHW_NPCs/Spelos/Animations/SkeletonSpelos_CoffinIdle.dae_ANIM" Name="CoffinIdle" SpecialEventTime="1.09244e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/entities/SPHW_NPCs/Spelos/Animations/SkeletonSpelos_CoffinJumpOut.dae_ANIM" Name="CoffinJumpOut" SpecialEventTime="1.09244e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/entities/SPHW_NPCs/Spelos/Animations/SkeletonSpelos_Talk01.dae_ANIM" Name="Talk" SpecialEventTime="1.09244e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/entities/SPHW_NPCs/Spelos/Animations/SkeletonSpelos_Listen.dae_ANIM" Name="Idle" SpecialEventTime="2.86449e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/TalkToDevil.dae_ANIM" Name="TalkToDevil" SpecialEventTime="2.82797e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/HoldGate.dae_ANIM" Name="HoldGate" SpecialEventTime="1.32218e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/RideTrolley.dae_ANIM" Name="RideSit" SpecialEventTime="1.9099e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/IAmSpelos.dae_ANIM" Name="IAmSpelos" SpecialEventTime="3.48477e-039" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/Talk02.dae_ANIM" Name="Talk02" SpecialEventTime="5.1383e-039" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/Talk03.dae_ANIM" Name="Talk03" SpecialEventTime="2.20375e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/spelos_Idle02.dae_ANIM" Name="Idle02" SpecialEventTime="7.34174e-039" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/spelos_Idle03.dae_ANIM" Name="Idle03" SpecialEventTime="7.34174e-039" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/spelos_Listening.dae_ANIM" Name="Listen" SpecialEventTime="7.34174e-039" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/spelosTalkToDevil02.dae_ANIM" Name="TalkToDevil02" SpecialEventTime="2.01083e-038" Speed="1" />
+            <Animation File="C:/dev/Amnesia The Dark Descent/custom_stories/spelos-spookfest/entities/sphw_NPCs/Spelos/Animations/spelos_DevilInnit.dae_ANIM" Name="DevilInnit" SpecialEventTime="2.01083e-038" Speed="1" />
+        </Animations>
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Static" EntityType="Object">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="HitDamageAmount" Value="5" />
+        <Var Name="HitDamageStrength" Value="1" />
+        <Var Name="MinHitDamageSpeed" Value="3" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="IsFood" Value="false" />
+    </UserDefinedVariables>
+</Entity>
