@@ -358,5 +358,11 @@
         "File": "spawn-water-monster.payload",
         "Duration": null,
         "Antidote": null
+    },
+    {
+        "Name": "Spawn suitor (not disappearing)",
+        "File": "spawn-suitor.payload",
+        "Duration": null,
+        "Antidote": null
     }
 ]
