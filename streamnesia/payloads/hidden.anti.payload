@@ -1,0 +1,24 @@
+FadeIn(0.0f);
+PlayGuiSound("24_iron_maiden.ogg", 1.0f);
+SetMessageExact("Brute is here...", 0.0f);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+CreateEntityAtFirstArea("{0}1", "servant_brute.ent", true);
+SetEnemyIsHallucination("{0}1", true);
+SetEntityPos("{0}1", baseX + 1.0f, baseY, baseZ);
+
+CreateEntityAtFirstArea("{0}2", "servant_brute.ent", true);
+SetEnemyIsHallucination("{0}2", true);
+SetEntityPos("{0}2", baseX - 1.0f, baseY, baseZ);
+
+CreateEntityAtFirstArea("{0}3", "servant_brute.ent", true);
+SetEnemyIsHallucination("{0}3", true);
+SetEntityPos("{0}3", baseX, baseY, baseZ + 1.0f);
+
+CreateEntityAtFirstArea("{0}4", "servant_brute.ent", true);
+SetEnemyIsHallucination("{0}4", true);
+SetEntityPos("{0}4", baseX, baseY, baseZ - 1.0f);
+
+ShowEnemyPlayerPosition("*");

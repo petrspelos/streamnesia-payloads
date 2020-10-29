@@ -376,5 +376,11 @@
         "File": "spelos.payload",
         "Duration": null,
         "Antidote": null
+    },
+    {
+        "Name": "Disguised Brute Jumpscare",
+        "File": "hidden.payload",
+        "Duration": "00:00:02",
+        "Antidote": "hidden.anti.payload"
     }
 ]

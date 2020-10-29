@@ -1,2 +1,2 @@
-SetMessageExact("You are blind for 10 seconds...", 5.0f);
+SetMessageExact("You are blind for 10 seconds...", 10.0f);
 FadeOut(0.5f);
