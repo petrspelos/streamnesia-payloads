@@ -1,0 +1,15 @@
+SetMessageExact("Ghoul is here...", 0.0f);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+if(GetEntityExists("StreamnesiaGhoul"))
+{{
+    SetEntityActive("StreamnesiaGhoul", true);
+}}
+else
+{{
+    CreateEntityAtFirstArea("StreamnesiaGhoul", "ghoul.ent", true);
+}}
+
+SetEntityPos("StreamnesiaGhoul", baseX + 2.0f, baseY, baseZ);
