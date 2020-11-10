@@ -388,5 +388,11 @@
         "File": "violin.payload",
         "Duration": null,
         "Antidote": null
+    },
+    {
+        "Name": "Liquid Courage",
+        "File": "sanity.payload",
+        "Duration": null,
+        "Antidote": null
     }
 ]
