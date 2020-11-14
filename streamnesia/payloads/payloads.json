@@ -390,12 +390,6 @@
         "Antidote": null
     },
     {
-        "Name": "Spawn Rebirth Monster (Ghoul)",
-        "File": "amnesia_rebirth_ghoul_spawn.payload",  
-        "Duration": null,
-        "Antidote": null
-    },
-    {
         "Name": "Liquid Courage",
         "File": "sanity.payload",
         "Duration": null,
