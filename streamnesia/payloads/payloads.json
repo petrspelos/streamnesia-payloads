@@ -2,397 +2,422 @@
     {
         "Name": "Surround with barrels",
         "File": "barrels.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "barrels.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Give full lantern oil",
-        "File": "full-oil.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "full-oil.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Jumpscare",
-        "File": "jumpscare.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "jumpscare.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn Brute (10 seconds)",
-        "File": "spawn-brute.payload",
-        "Duration": "00:00:10",
-        "Antidote": "spawn-brute.anti.payload"
+        "Sequence": [
+            { "File": "spawn-brute.payload", "Delay": "00:00:20" },
+            { "File": "spawn-brute.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Random Insanity Effect",
-        "File": "random-insanity-effect.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "random-insanity-effect.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Slow player (20 seconds)",
-        "File": "slowdown.payload",
-        "Duration": "00:00:20",
-        "Antidote": "slowdown.anti.payload"
+        "Sequence": [
+            { "File": "slowdown.payload", "Delay": "00:00:20" },
+            { "File": "slowdown.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Tiny player (10 seconds)",
-        "File": "tiny-player.payload",
-        "Duration": "00:00:10",
-        "Antidote": "tiny-player.anti.payload"
+        "Sequence": [
+            { "File": "tiny-player.payload", "Delay": "00:00:10" },
+            { "File": "tiny-player.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
-        "Name": "Upside down (1 minute)",
-        "File": "upside-down.payload",
-        "Duration": "00:01:00",
-        "Antidote": "upside-down.anti.payload"
+        "Name": "Upside down (20 seconds)",
+        "Sequence": [
+            { "File": "upside-down.payload", "Delay": "00:00:20" },
+            { "File": "upside-down.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Low Sanity (20 seconds)",
-        "File": "low-sanity.payload",
-        "Duration": "00:00:20",
-        "Antidote": "low-sanity.anti.payload"
+        "Sequence": [
+            { "File": "low-sanity.payload", "Delay": "00:00:20" },
+            { "File": "low-sanity.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn Goodies",
-        "File": "goodies.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "goodies.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Rain",
-        "File": "rain.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "rain.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Silent Hill (Fog)",
-        "File": "silent-hill.payload",
-        "Duration": "00:00:30",
-        "Antidote": "almost-blind.anti.payload"
+        "Sequence": [
+            { "File": "silent-hill.payload", "Delay": "00:00:30" },
+            { "File": "almost-blind.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Almost Blind (30 seconds)",
-        "File": "almost-blind.payload",
-        "Duration": "00:00:30",
-        "Antidote": "almost-blind.anti.payload"
+        "Sequence": [
+            { "File": "almost-blind.payload", "Delay": "00:00:30" },
+            { "File": "almost-blind.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Completely Blind (10 seconds)",
-        "File": "blind.payload",
-        "Duration": "00:00:10",
-        "Antidote": "blind.anti.payload"
+        "Sequence": [
+            { "File": "blind.payload", "Delay": "00:00:10" },
+            { "File": "blind.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Sepia Vision (30 seconds)",
-        "File": "sepia.payload",
-        "Duration": "00:00:30",
-        "Antidote": "sepia.anti.payload"
+        "Sequence": [
+            { "File": "sepia.payload", "Delay": "00:00:30" },
+            { "File": "sepia.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Show Bugs on screen",
-        "File": "bugs.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "bugs.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Play monster roar",
-        "File": "roar.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "roar.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Paralyze player (5 seconds)",
-        "File": "paralyze.payload",
-        "Duration": "00:00:05",
-        "Antidote": "paralyze.anti.payload"
+        "Sequence": [
+            { "File": "paralyze.payload", "Delay": "00:00:05" },
+            { "File": "paralyze.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Slap Player",
-        "File": "slap.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "slap.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Screen Shake (10 seconds)",
-        "File": "shake.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "shake.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn Grunt randomly",
-        "File": "random-grunt.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "random-grunt.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Play random spooky music",
-        "File": "spooky-music.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "spooky-music.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Megajump (1 minute)",
-        "File": "jump.payload",
-        "Duration": "00:01:00",
-        "Antidote": "jump.anti.payload"
+        "Sequence": [
+            { "File": "jump.payload", "Delay": "00:01:00" },
+            { "File": "jump.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "All lights out",
-        "File": "lamps-off.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "lamps-off.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Quake FOV (30 seconds)",
-        "File": "fov.payload",
-        "Duration": "00:00:30",
-        "Antidote": "fov.anti.payload"
+        "Sequence": [
+            { "File": "fov.payload", "Delay": "00:00:30" },
+            { "File": "fov.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Zoom vision (30 seconds)",
-        "File": "zoom.payload",
-        "Duration": "00:00:30",
-        "Antidote": "fov.anti.payload"
+        "Sequence": [
+            { "File": "zoom.payload", "Delay": "00:00:30" },
+            { "File": "fov.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Give 3 tinderboxes",
-        "File": "tinderboxes.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "tinderboxes.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Give large oil",
-        "File": "large-oil.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "large-oil.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Shower with coins",
-        "File": "coins.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "coins.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn door near player",
-        "File": "door.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "door.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn small cross",
-        "File": "cross.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "cross.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Wide Putin",
-        "File": "putin.payload",
-        "Duration": "00:00:15",
-        "Antidote": "putin.anti.payload"
+        "Sequence": [
+            { "File": "putin.payload", "Delay": "00:00:15" },
+            { "File": "putin.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Yeet backwards",
-        "File": "yeet-back.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "yeet-back.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "All oil to player",
-        "File": "map-oil.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "map-oil.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "All interact icons are LevelDoor",
-        "File": "leveldoor.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "leveldoor.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Close ALL doors",
-        "File": "closedoors.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "closedoors.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Show all enemies player position",
-        "File": "show-enemy-pos.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "show-enemy-pos.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Chairs slowly disappear",
-        "File": "fade-chairs.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "fade-chairs.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Closets slowly disappear",
-        "File": "fade-closets.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "fade-closets.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Out of lantern oil",
-        "File": "no-oil.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "no-oil.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Near death health",
-        "File": "near-death.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "near-death.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Full health",
-        "File": "full-hp.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "full-hp.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Yeet forward",
-        "File": "yeet-forward.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "yeet-forward.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Skyrim wakeup",
-        "File": "skyrim.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "skyrim.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spin screen (10 seconds)",
-        "File": "screen-spin.payload",
-        "Duration": "00:00:07",
-        "Antidote": "screen-spin.anti.payload"
+        "Sequence": [
+            { "File": "screen-spin.payload", "Delay": "00:00:07" },
+            { "File": "screen-spin.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "UwU nuzzles",
-        "File": "uwu.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "uwu.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Unlock all doors",
-        "File": "unlock.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "unlock.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Play Grunt Spawn Sound Effect",
-        "File": "grunt_spawn_sfx.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "grunt_spawn_sfx.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Play Brute Spawn Sound Effect",
-        "File": "brute_spawn_sfx.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "brute_spawn_sfx.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Tilt Player Head 45 Degrees (30 seconds)",
-        "File": "tilt_player_head.payload",
-        "Duration": "00:00:30",
-        "Antidote": "tilt_player_head.anti.payload"
+        "Sequence": [
+            { "File": "tilt_player_head.payload", "Delay": "00:00:30" },
+            { "File": "tilt_player_head.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Faster Player Speed (25 seconds)",
-        "File": "increase_player_speed.payload",
-        "Duration": "00:00:25",
-        "Antidote": "increase_player_speed.anti.payload"
+        "Sequence": [
+            { "File": "increase_player_speed.payload", "Delay": "00:00:25" },
+            { "File": "increase_player_speed.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Decrease Player Look Speed (20 seconds)",
-        "File": "decrease_player_look_speed.payload",
-        "Duration": "00:00:20",
-        "Antidote": "decrease_player_look_speed.anti.payload"
+        "Sequence": [
+            { "File": "decrease_player_look_speed.payload", "Delay": "00:00:20" },
+            { "File": "decrease_player_look_speed.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Play Chase Sound Effect (10 seconds)",
-        "File": "terror_meter_sfx.payload",
-        "Duration": "00:00:10",
-        "Antidote": "terror_meter_sfx.anti.payload"
+        "Sequence": [
+            { "File": "terror_meter_sfx.payload", "Delay": "00:00:10" },
+            { "File": "terror_meter_sfx.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Cave-in explosion",
-        "File": "explosion_jumpscare.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "explosion_jumpscare.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Disable jump and crouch (20 seconds)",
-        "File": "disable_jump_crouch.payload",
-        "Duration": "00:00:20",
-        "Antidote": "disable_jump_crouch.anti.payload"
+        "Sequence": [
+            { "File": "disable_jump_crouch.payload", "Delay": "00:00:20" },
+            { "File": "disable_jump_crouch.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Red fog",
-        "File": "red_fog.payload",
-        "Duration": "00:00:10",
-        "Antidote": "almost-blind.anti.payload"
+        "Sequence": [
+            { "File": "red_fog.payload", "Delay": "00:00:20" },
+            { "File": "almost-blind.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Relax with candles",
-        "File": "candles.payload",
-        "Duration": "00:00:15",
-        "Antidote": "candles.anti.payload"
+        "Sequence": [
+            { "File": "candles.payload", "Delay": "00:00:15" },
+            { "File": "candles.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Boxes at player (Jumpscare)",
-        "File": "statue.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "statue.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn water monster",
-        "File": "spawn-water-monster.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "spawn-water-monster.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn suitor (not disappearing)",
-        "File": "spawn-suitor.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "spawn-suitor.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Teleporting naked guy",
-        "File": "naked-guy.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "naked-guy.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spooky Skeleton Spelos",
-        "File": "spelos.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "spelos.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Disguised Brute Jumpscare",
-        "File": "hidden.payload",
-        "Duration": "00:00:02",
-        "Antidote": "hidden.anti.payload"
+        "Sequence": [
+            { "File": "hidden.payload", "Delay": "00:00:04" },
+            { "File": "hidden.anti.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn a Violin",
-        "File": "violin.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "violin.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Liquid Courage",
-        "File": "sanity.payload",
-        "Duration": null,
-        "Antidote": null
+        "Sequence": [
+            { "File": "sanity.payload", "Delay": "00:00:00" }
+        ]
     },
     {
         "Name": "Spawn Ghoul",
-        "File": "ghoul.payload",
-        "Duration": "00:00:10",
-        "Antidote": "ghoul.anti.payload"
+        "Sequence": [
+            { "File": "ghoul.payload", "Delay": "00:00:10" },
+            { "File": "ghoul.anti.payload", "Delay": "00:00:00" }
+        ]
     }
 ]
