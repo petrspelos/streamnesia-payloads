@@ -330,9 +330,9 @@
         "Antidote": null
     },
     {
-        "Name": "Disable jump and crouch (1 minute)",
+        "Name": "Disable jump and crouch (20 seconds)",
         "File": "disable_jump_crouch.payload",
-        "Duration": "00:01:00",
+        "Duration": "00:00:20",
         "Antidote": "disable_jump_crouch.anti.payload"
     },
     {
