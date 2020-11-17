@@ -21,8 +21,8 @@
     {
         "Name": "Spawn Brute (10 seconds)",
         "Sequence": [
-            { "File": "spawn-brute.payload", "Delay": "00:00:20" },
-            { "File": "spawn-brute.anti.payload", "Delay": "00:00:00" }
+            { "File": "spawn-brute.payload", "Delay": "00:00:00" },
+            { "File": "spawn-brute.anti.payload", "Delay": "00:00:20" }
         ]
     },
     {
@@ -34,29 +34,29 @@
     {
         "Name": "Slow player (20 seconds)",
         "Sequence": [
-            { "File": "slowdown.payload", "Delay": "00:00:20" },
-            { "File": "slowdown.anti.payload", "Delay": "00:00:00" }
+            { "File": "slowdown.payload", "Delay": "00:00:00" },
+            { "File": "slowdown.anti.payload", "Delay": "00:00:20" }
         ]
     },
     {
         "Name": "Tiny player (10 seconds)",
         "Sequence": [
-            { "File": "tiny-player.payload", "Delay": "00:00:10" },
-            { "File": "tiny-player.anti.payload", "Delay": "00:00:00" }
+            { "File": "tiny-player.payload", "Delay": "00:00:00" },
+            { "File": "tiny-player.anti.payload", "Delay": "00:00:10" }
         ]
     },
     {
         "Name": "Upside down (20 seconds)",
         "Sequence": [
-            { "File": "upside-down.payload", "Delay": "00:00:20" },
-            { "File": "upside-down.anti.payload", "Delay": "00:00:00" }
+            { "File": "upside-down.payload", "Delay": "00:00:00" },
+            { "File": "upside-down.anti.payload", "Delay": "00:00:20" }
         ]
     },
     {
         "Name": "Low Sanity (20 seconds)",
         "Sequence": [
-            { "File": "low-sanity.payload", "Delay": "00:00:20" },
-            { "File": "low-sanity.anti.payload", "Delay": "00:00:00" }
+            { "File": "low-sanity.payload", "Delay": "00:00:00" },
+            { "File": "low-sanity.anti.payload", "Delay": "00:00:20" }
         ]
     },
     {
@@ -74,29 +74,29 @@
     {
         "Name": "Silent Hill (Fog)",
         "Sequence": [
-            { "File": "silent-hill.payload", "Delay": "00:00:30" },
-            { "File": "almost-blind.anti.payload", "Delay": "00:00:00" }
+            { "File": "silent-hill.payload", "Delay": "00:00:00" },
+            { "File": "almost-blind.anti.payload", "Delay": "00:00:30" }
         ]
     },
     {
         "Name": "Almost Blind (30 seconds)",
         "Sequence": [
-            { "File": "almost-blind.payload", "Delay": "00:00:30" },
-            { "File": "almost-blind.anti.payload", "Delay": "00:00:00" }
+            { "File": "almost-blind.payload", "Delay": "00:00:00" },
+            { "File": "almost-blind.anti.payload", "Delay": "00:00:30" }
         ]
     },
     {
         "Name": "Completely Blind (10 seconds)",
         "Sequence": [
-            { "File": "blind.payload", "Delay": "00:00:10" },
-            { "File": "blind.anti.payload", "Delay": "00:00:00" }
+            { "File": "blind.payload", "Delay": "00:00:00" },
+            { "File": "blind.anti.payload", "Delay": "00:00:10" }
         ]
     },
     {
         "Name": "Sepia Vision (30 seconds)",
         "Sequence": [
-            { "File": "sepia.payload", "Delay": "00:00:30" },
-            { "File": "sepia.anti.payload", "Delay": "00:00:00" }
+            { "File": "sepia.payload", "Delay": "00:00:00" },
+            { "File": "sepia.anti.payload", "Delay": "00:00:30" }
         ]
     },
     {
@@ -114,8 +114,8 @@
     {
         "Name": "Paralyze player (5 seconds)",
         "Sequence": [
-            { "File": "paralyze.payload", "Delay": "00:00:05" },
-            { "File": "paralyze.anti.payload", "Delay": "00:00:00" }
+            { "File": "paralyze.payload", "Delay": "00:00:00" },
+            { "File": "paralyze.anti.payload", "Delay": "00:00:05" }
         ]
     },
     {
@@ -145,8 +145,8 @@
     {
         "Name": "Megajump (1 minute)",
         "Sequence": [
-            { "File": "jump.payload", "Delay": "00:01:00" },
-            { "File": "jump.anti.payload", "Delay": "00:00:00" }
+            { "File": "jump.payload", "Delay": "00:00:00" },
+            { "File": "jump.anti.payload", "Delay": "00:01:00" }
         ]
     },
     {
@@ -158,15 +158,15 @@
     {
         "Name": "Quake FOV (30 seconds)",
         "Sequence": [
-            { "File": "fov.payload", "Delay": "00:00:30" },
-            { "File": "fov.anti.payload", "Delay": "00:00:00" }
+            { "File": "fov.payload", "Delay": "00:00:00" },
+            { "File": "fov.anti.payload", "Delay": "00:00:30" }
         ]
     },
     {
         "Name": "Zoom vision (30 seconds)",
         "Sequence": [
-            { "File": "zoom.payload", "Delay": "00:00:30" },
-            { "File": "fov.anti.payload", "Delay": "00:00:00" }
+            { "File": "zoom.payload", "Delay": "00:00:00" },
+            { "File": "fov.anti.payload", "Delay": "00:00:30" }
         ]
     },
     {
@@ -202,8 +202,8 @@
     {
         "Name": "Wide Putin",
         "Sequence": [
-            { "File": "putin.payload", "Delay": "00:00:15" },
-            { "File": "putin.anti.payload", "Delay": "00:00:00" }
+            { "File": "putin.payload", "Delay": "00:00:00" },
+            { "File": "putin.anti.payload", "Delay": "00:00:15" }
         ]
     },
     {
@@ -281,8 +281,8 @@
     {
         "Name": "Spin screen (10 seconds)",
         "Sequence": [
-            { "File": "screen-spin.payload", "Delay": "00:00:07" },
-            { "File": "screen-spin.anti.payload", "Delay": "00:00:00" }
+            { "File": "screen-spin.payload", "Delay": "00:00:00" },
+            { "File": "screen-spin.anti.payload", "Delay": "00:00:07" }
         ]
     },
     {
@@ -312,29 +312,29 @@
     {
         "Name": "Tilt Player Head 45 Degrees (30 seconds)",
         "Sequence": [
-            { "File": "tilt_player_head.payload", "Delay": "00:00:30" },
-            { "File": "tilt_player_head.anti.payload", "Delay": "00:00:00" }
+            { "File": "tilt_player_head.payload", "Delay": "00:00:00" },
+            { "File": "tilt_player_head.anti.payload", "Delay": "00:00:30" }
         ]
     },
     {
         "Name": "Faster Player Speed (25 seconds)",
         "Sequence": [
-            { "File": "increase_player_speed.payload", "Delay": "00:00:25" },
-            { "File": "increase_player_speed.anti.payload", "Delay": "00:00:00" }
+            { "File": "increase_player_speed.payload", "Delay": "00:00:00" },
+            { "File": "increase_player_speed.anti.payload", "Delay": "00:00:25" }
         ]
     },
     {
         "Name": "Decrease Player Look Speed (20 seconds)",
         "Sequence": [
-            { "File": "decrease_player_look_speed.payload", "Delay": "00:00:20" },
-            { "File": "decrease_player_look_speed.anti.payload", "Delay": "00:00:00" }
+            { "File": "decrease_player_look_speed.payload", "Delay": "00:00:00" },
+            { "File": "decrease_player_look_speed.anti.payload", "Delay": "00:00:20" }
         ]
     },
     {
         "Name": "Play Chase Sound Effect (10 seconds)",
         "Sequence": [
-            { "File": "terror_meter_sfx.payload", "Delay": "00:00:10" },
-            { "File": "terror_meter_sfx.anti.payload", "Delay": "00:00:00" }
+            { "File": "terror_meter_sfx.payload", "Delay": "00:00:00" },
+            { "File": "terror_meter_sfx.anti.payload", "Delay": "00:00:10" }
         ]
     },
     {
@@ -346,22 +346,22 @@
     {
         "Name": "Disable jump and crouch (20 seconds)",
         "Sequence": [
-            { "File": "disable_jump_crouch.payload", "Delay": "00:00:20" },
-            { "File": "disable_jump_crouch.anti.payload", "Delay": "00:00:00" }
+            { "File": "disable_jump_crouch.payload", "Delay": "00:00:00" },
+            { "File": "disable_jump_crouch.anti.payload", "Delay": "00:00:20" }
         ]
     },
     {
         "Name": "Red fog",
         "Sequence": [
-            { "File": "red_fog.payload", "Delay": "00:00:20" },
-            { "File": "almost-blind.anti.payload", "Delay": "00:00:00" }
+            { "File": "red_fog.payload", "Delay": "00:00:00" },
+            { "File": "almost-blind.anti.payload", "Delay": "00:00:20" }
         ]
     },
     {
         "Name": "Relax with candles",
         "Sequence": [
-            { "File": "candles.payload", "Delay": "00:00:15" },
-            { "File": "candles.anti.payload", "Delay": "00:00:00" }
+            { "File": "candles.payload", "Delay": "00:00:00" },
+            { "File": "candles.anti.payload", "Delay": "00:00:15" }
         ]
     },
     {
@@ -397,8 +397,8 @@
     {
         "Name": "Disguised Brute Jumpscare",
         "Sequence": [
-            { "File": "hidden.payload", "Delay": "00:00:04" },
-            { "File": "hidden.anti.payload", "Delay": "00:00:00" }
+            { "File": "hidden.payload", "Delay": "00:00:00" },
+            { "File": "hidden.anti.payload", "Delay": "00:00:04" }
         ]
     },
     {
@@ -416,8 +416,8 @@
     {
         "Name": "Spawn Ghoul",
         "Sequence": [
-            { "File": "ghoul.payload", "Delay": "00:00:10" },
-            { "File": "ghoul.anti.payload", "Delay": "00:00:00" }
+            { "File": "ghoul.payload", "Delay": "00:00:00" },
+            { "File": "ghoul.anti.payload", "Delay": "00:00:10" }
         ]
     }
 ]
