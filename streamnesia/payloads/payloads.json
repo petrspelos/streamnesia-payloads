@@ -68,8 +68,8 @@
     {
         "Name": "Silent Hill (Fog)",
         "File": "silent-hill.payload",
-        "Duration": null,
-        "Antidote": null
+        "Duration": "00:00:30",
+        "Antidote": "almost-blind.anti.payload"
     },
     {
         "Name": "Almost Blind (30 seconds)",
