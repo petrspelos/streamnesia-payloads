@@ -198,12 +198,6 @@
         "Antidote": null
     },
     {
-        "Name": "Invisible Entities (30 seconds)",
-        "File": "invisible.payload",
-        "Duration": "00:00:15",
-        "Antidote": "invisible.anti.payload"
-    },
-    {
         "Name": "All oil to player",
         "File": "map-oil.payload",
         "Duration": null,
@@ -398,7 +392,7 @@
     {
         "Name": "Spawn Ghoul",
         "File": "ghoul.payload",
-        "Duration": null,
-        "Antidote": null
+        "Duration": "00:00:10",
+        "Antidote": "ghoul.anti.payload"
     }
 ]
