@@ -1,0 +1,15 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="ghoul_barefoot_run_10" />
+  		<Sound File="ghoul_barefoot_run_11" />
+  		<Sound File="ghoul_barefoot_run_12" />
+  		<Sound File="ghoul_barefoot_run_13" />
+  		<Sound File="ghoul_barefoot_run_14" />
+  		<Sound File="ghoul_barefoot_run_15" />
+  		<Sound File="ghoul_barefoot_run_16" />
+  		<Sound File="ghoul_barefoot_run_17" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.7" MinDistance="2" MaxDistance="16" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.7" Priority="0" />
+</SOUNDENTITY>

@@ -1,0 +1,12 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="ghoul_notice_01" />
+  		<Sound File="ghoul_notice_02" />
+  		<Sound File="ghoul_notice_03" />
+		<Sound File="ghoul_notice_04" />
+		<Sound File="ghoul_notice_05" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.8" MinDistance="1" MaxDistance="18" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.7" Priority="1" />
+</SOUNDENTITY>
