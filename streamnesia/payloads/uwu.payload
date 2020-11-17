@@ -1,3 +1,4 @@
-SetMessageExact("I am so sorry for what is about to happen.\n\n- Spelos", 5.0f);
-SetPlayerSanity(1.0f);
-StartInsanityEvent("Stream_Voice_Daniel_CH02_12");
+PlayGuiSound("nuzzlefull.ogg", 1.0f);
+SetPlayerSanity(0.0f);
+SetPlayerHealth(1.0f);
+GiveSanityDamage(1.0f, true);

@@ -276,10 +276,10 @@
         "Antidote": "screen-spin.anti.payload"
     },
     {
-        "Name": "UwU nuzzles (please don't)",
+        "Name": "UwU nuzzles",
         "File": "uwu.payload",
-        "Duration": "00:00:07",
-        "Antidote": "uwu.anti.payload"
+        "Duration": null,
+        "Antidote": null
     },
     {
         "Name": "Unlock all doors",
