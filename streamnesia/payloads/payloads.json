@@ -394,5 +394,11 @@
         "File": "sanity.payload",
         "Duration": null,
         "Antidote": null
+    },
+    {
+        "Name": "Spawn Ghoul",
+        "File": "ghoul.payload",
+        "Duration": null,
+        "Antidote": null
     }
 ]
