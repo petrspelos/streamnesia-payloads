@@ -2,7 +2,7 @@ float baseX = GetPlayerPosX();
 float baseY = GetPlayerPosY();
 float baseZ = GetPlayerPosZ();
 
-for(int t = 0; t < 10; t++)
+for(int t = 0; t < 2; t++)
 {{
     GiveItemFromFile("{0}sanityPickup" + t, "potion_sanity.ent");
     CreateEntityAtFirstArea("{0}sanity" + t, "potion_sanity.ent", false);
