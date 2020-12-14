@@ -1,1 +1,2 @@
 GivePlayerDamage(20.0f, "Claws", true, false);
+PlayGuiSound("sounds/enemy/meli/meli_hit_generic.snt", 1.0f);
