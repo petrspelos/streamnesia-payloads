@@ -1,0 +1,23 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="chiu/Chiamoio.ogg" />
+  		<Sound File="chiu/Chiavi.ogg" />
+  		<Sound File="chiu/Chiu01.ogg" />
+		<Sound File="chiu/Chiu02.ogg" />
+		<Sound File="chiu/Chiubaba.ogg" />
+		<Sound File="chiu/Chiuruchiu.ogg" />
+		<Sound File="chiu/Chivuolesserlietosia.ogg" />
+		<Sound File="chiu/Fateibuoni.ogg" />
+		<Sound File="chiu/Iltacchinoglugluglu.ogg" />
+		<Sound File="chiu/Interrogatotutti02.ogg" />
+		<Sound File="chiu/Oggifaremolatino.ogg" />
+		<Sound File="chiu/Qualcunochevuolefarsi.ogg" />
+		<Sound File="chiu/Russochiu.ogg" />
+		<Sound File="chiu/Spiegoassiuolo.ogg" />
+		<Sound File="chiu/Stavistudiando01.ogg" />
+		<Sound File="chiu/Tappetino02.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.1" MinDistance="0" MaxDistance="19" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

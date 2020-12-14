@@ -1,0 +1,12 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="chiu/keys_walk01.ogg" />
+  		<Sound File="chiu/keys_walk02.ogg" />
+  		<Sound File="chiu/keys_walk03.ogg" />
+  		<Sound File="chiu/keys_walk04.ogg" />
+		<Sound File="chiu/keys_walk05.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.6" MinDistance="0" MaxDistance="18" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>
