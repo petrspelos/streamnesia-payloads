@@ -477,5 +477,23 @@
         "Sequence": [
             { "File": "spawn_funny_water_lurker.payload", "Delay": "00:00:00" }
         ]
+    },
+    {
+        "Name": "Grunt Slap",
+        "Sequence": [
+            { "File": "attack_grunt.payload", "Delay": "00:00:00" }
+        ]
+    },
+    {
+        "Name": "Brute Slap",
+        "Sequence": [
+            { "File": "attack_brute.payload", "Delay": "00:00:00" }
+        ]
+    },
+    {
+        "Name": "Suitor Slap",
+        "Sequence": [
+            { "File": "attack_suitor.payload", "Delay": "00:00:00" }
+        ]
     }
 ]
