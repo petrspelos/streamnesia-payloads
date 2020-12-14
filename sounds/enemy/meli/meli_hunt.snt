@@ -1,0 +1,18 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="meli/Dovevai01.ogg" />
+  		<Sound File="meli/Echiaro01.ogg" />
+  		<Sound File="meli/Echiaro02.ogg" />
+  		<Sound File="meli/Inculareasangue.ogg" />
+  		<Sound File="meli/Logaritmo.ogg" />
+		<Sound File="meli/Munzonecheschifo.ogg" />
+  		<Sound File="meli/Munzoneinterrogato.ogg" />
+		<Sound File="meli/Nonpuoifuggire.ogg" />
+		<Sound File="meli/Pronto.ogg" />
+		<Sound File="meli/Stovenendo.ogg" />
+		<Sound File="meli/Tistoinculando.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.2" MinDistance="0" MaxDistance="20" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

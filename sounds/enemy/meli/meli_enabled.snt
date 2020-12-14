@@ -1,0 +1,17 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="meli/Avetelaquintiteacuta.ogg" />
+  		<Sound File="meli/Dovevai02.ogg" />
+  		<Sound File="meli/Echiaro03.ogg" />
+  		<Sound File="meli/Munzoneinterrogato.ogg" />
+  		<Sound File="meli/Pronto.ogg" />
+		<Sound File="meli/Stovenendo.ogg" />
+		<Sound File="meli/Tivedo.ogg" />
+  		<Sound File="meli/Tre01.ogg" />
+  		<Sound File="meli/Tre02.ogg" />
+		<Sound File="meli/Vimettotree.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1" MinDistance="10" MaxDistance="50" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="False" Use3D="True" Blockable="False" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

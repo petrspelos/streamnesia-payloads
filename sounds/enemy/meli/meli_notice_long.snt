@@ -1,0 +1,12 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+		<Sound File="meli/Cosaestato.ogg" />
+		<Sound File="meli/Stovenendo.ogg" />
+		<Sound File="meli/Tidevometteretre.ogg" />
+  		<Sound File="meli/Tihosentitoscarso.ogg" />
+		<Sound File="meli/Tivedo.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.2" MinDistance="0" MaxDistance="22" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="false" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>
