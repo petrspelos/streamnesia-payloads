@@ -425,5 +425,57 @@
         "Sequence": [
             { "File": "slime_attack_normal.payload", "Delay": "00:00:00" },
         ]
+    },
+    {
+        "Name": "Spawn funny brute (10 seconds)",
+        "Sequence": [
+            { "File": "spawn_funny_brute.payload", "Delay": "00:00:00" },
+            { "File": "spawn_funny_brute.anti.payload", "Delay": "00:00:10" }
+        ]
+    },
+    {
+        "Name": "Spawn funny brute",
+        "Sequence": [
+            { "File": "spawn_funny_brute.payload", "Delay": "00:00:00" }
+        ]
+    },
+    {
+        "Name": "Spawn funny grunt (10 seconds)",
+        "Sequence": [
+            { "File": "spawn_funny_grunt.payload", "Delay": "00:00:00" },
+            { "File": "spawn_funny_grunt.anti.payload", "Delay": "00:00:10" }
+        ]
+    },
+    {
+        "Name": "Spawn funny grunt",
+        "Sequence": [
+            { "File": "spawn_funny_grunt.payload", "Delay": "00:00:00" }
+        ]
+    },
+    {
+        "Name": "Spawn funny suitor (10 seconds)",
+        "Sequence": [
+            { "File": "spawn_funny_suitor.payload", "Delay": "00:00:00" },
+            { "File": "spawn_funny_suitor.anti.payload", "Delay": "00:00:10" }
+        ]
+    },
+    {
+        "Name": "Spawn funny suitor",
+        "Sequence": [
+            { "File": "spawn_funny_suitor.payload", "Delay": "00:00:00" }
+        ]
+    },
+    {
+        "Name": "Spawn funny water monster (10 seconds)",
+        "Sequence": [
+            { "File": "spawn_funny_water_lurker.payload", "Delay": "00:00:00" },
+            { "File": "spawn_funny_water_lurker.anti.payload", "Delay": "00:00:10" }
+        ]
+    },
+    {
+        "Name": "Spawn funny water monster",
+        "Sequence": [
+            { "File": "spawn_funny_water_lurker.payload", "Delay": "00:00:00" }
+        ]
     }
 ]
