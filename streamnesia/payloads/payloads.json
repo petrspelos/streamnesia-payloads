@@ -419,11 +419,5 @@
             { "File": "ghoul.payload", "Delay": "00:00:00" },
             { "File": "ghoul.anti.payload", "Delay": "00:00:10" }
         ]
-    },
-    {
-        "Name": "Slime Attack",
-        "Sequence": [
-            { "File": "slime_attack_normal.payload", "Delay": "00:00:00" }
-        ]
     }
 ]
