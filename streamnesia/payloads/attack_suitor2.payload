@@ -1,4 +1,0 @@
-CreateParticleSystemAtEntity("Player_particles/hit/blood", "particles/hit/blood.ps", "Player", false);
-PlayGuiSound("sounds/ptest/enemy/suitor/attack_claw_hit.snt", 1.0f);
-GivePlayerDamage(RandFloat(10.0f, 20.0f), "Slash", true, false);
-StartScreenShake(0.1f, 0.1f, 0.2f, 0.0f);
