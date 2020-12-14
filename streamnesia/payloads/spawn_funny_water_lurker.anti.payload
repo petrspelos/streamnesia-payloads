@@ -1,0 +1,4 @@
+SetMessageExact("Funny splash splash left...", 0.0f);
+SetEntityActive("StreamnesiaFunnyWaterLurker", false);
+FadeEnemyToSmoke("StreamnesiaFunnyWaterLurker", true);
+PlayGuiSound("sounds/enemy/malato/malato_idle_rev.snt", 1.0f);

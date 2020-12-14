@@ -1,0 +1,4 @@
+SetMessageExact("Funny grunt left...", 0.0f);
+SetEntityActive("StreamnesiaFunnyGrunt", false);
+FadeEnemyToSmoke("StreamnesiaFunnyGrunt", true);
+PlayGuiSound("sounds/enemy/longo/longo_giveup.snt", 1.0f);

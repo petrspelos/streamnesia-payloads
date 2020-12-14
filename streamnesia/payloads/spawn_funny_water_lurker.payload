@@ -1,0 +1,15 @@
+SetMessageExact("Funny splash splash is here...", 0.0f);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+if(GetEntityExists("StreamnesiaFunnyWaterLurker"))
+{{
+    SetEntityActive("StreamnesiaFunnyWaterLurker", true);
+}}
+else
+{{
+    PlayGuiSound("sounds/enemy/malato/malato_death.snt", 1.0f);
+	CreateEntityAtFirstArea("StreamnesiaFunnyWaterLurker", "entities/enemy/malato_waterlurker/malato_waterlurker.ent", true);
+}}
+
+SetEntityPos("StreamnesiaFunnyWaterLurker", baseX + 2.0f, baseY, baseZ);

@@ -1,0 +1,15 @@
+SetMessageExact("Funny suitor is here...", 0.0f);
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+if(GetEntityExists("StreamnesiaFunnySuitor"))
+{{
+    SetEntityActive("StreamnesiaFunnySuitor", true);
+}}
+else
+{{
+    PlayGuiSound("sounds/enemy/meli/meli_notice.snt", 1.0f);
+	CreateEntityAtFirstArea("StreamnesiaFunnySuitor", "entities/enemy/meli_suitor/meli_suitor.ent", true);
+}}
+
+SetEntityPos("StreamnesiaFunnySuitor", baseX + 2.0f, baseY, baseZ);

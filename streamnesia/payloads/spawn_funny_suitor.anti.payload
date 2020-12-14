@@ -1,0 +1,4 @@
+SetMessageExact("Funny suitor left...", 0.0f);
+SetEntityActive("StreamnesiaFunnySuitor", false);
+FadeEnemyToSmoke("StreamnesiaFunnySuitor", true);
+PlayGuiSound("sounds/enemy/meli/meli_giveup.snt", 1.0f);
