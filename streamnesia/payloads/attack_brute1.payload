@@ -1,0 +1,1 @@
+PlayGuiSound("sounds/enemy/brute/attack_launch.snt", 1.0f);
