@@ -1,0 +1,4 @@
+CreateParticleSystemAtEntity("Player_ps_slime_attack_normal", "ps_slime_attack_normal.ps", "Player", false);
+PlayGuiSound("slime_attack_normal_hit.snt", 1.0f);
+GivePlayerDamage(RandFloat(2.5f, 5.0f), "BloodSplat", true, false);
+StartScreenShake(0.2f, 0.1f, 0.4f, 0.0f);
