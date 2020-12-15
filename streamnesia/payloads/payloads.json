@@ -421,7 +421,7 @@
         ]
     },
     {
-        "Name": "Slime Attack",
+        "Name": "Slime Damage",
         "Sequence": [
             { "File": "slime_attack_normal.payload", "Delay": "00:00:00" },
         ]
