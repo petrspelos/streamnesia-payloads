@@ -1,0 +1,14 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="longo/Appunti02.ogg" />
+		<Sound File="longo/Impreparatuccio.ogg" />
+		<Sound File="longo/Munzoncino01.ogg" />
+		<Sound File="longo/Pantaloncini02.ogg" />
+		<Sound File="longo/Perdonate01.ogg" />
+		<Sound File="longo/Perdonate02.ogg" />
+		<Sound File="longo/Statecomodi.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.3" MinDistance="10" MaxDistance="50" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="False" Use3D="True" Blockable="False" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

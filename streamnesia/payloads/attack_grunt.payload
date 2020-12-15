@@ -1,0 +1,5 @@
+CreateParticleSystemAtEntity("Player_particles/hit/blood", "particles/hit/blood.ps", "Player", false);
+PlayGuiSound("sounds/enemy/grunt/attack_claw.snt", 1.0f);
+PlayGuiSound("sounds/enemy/grunt/attack_claw_hit.snt", 1.0f);
+GivePlayerDamage(RandFloat(15.0f, 30.0f), "Claws", true, false);
+StartScreenShake(0.1f, 0.1f, 0.2f, 0.0f);

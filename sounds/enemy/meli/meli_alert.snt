@@ -1,0 +1,24 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="meli/Avetelaquintiteacuta.ogg" />
+		<Sound File="meli/Cheschifomammamia.ogg" />
+  		<Sound File="meli/Chiarofateschifo.ogg" />
+  		<Sound File="meli/Echiaro03.ogg" />
+		<Sound File="meli/Guardachescarso.ogg" />
+  		<Sound File="meli/Inculareasangue.ogg" />
+  		<Sound File="meli/Inutilechescappi.ogg" />
+  		<Sound File="meli/Munzonecheschifo.ogg" />
+		<Sound File="meli/Nonpuoiscapparetiboccio.ogg" />
+		<Sound File="meli/Pensidiesserefurbo02.ogg" />
+		<Sound File="meli/Pronto.ogg" />
+		<Sound File="meli/Scarsiassenti02.ogg" />
+		<Sound File="meli/Tranneraccuglia.ogg" />
+		<Sound File="meli/Tre02.ogg" />
+		<Sound File="meli/Viammazzointegrali02.ogg" />
+		<Sound File="meli/Vimettotree.ogg" />
+		<Sound File="meli/Viuccido.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.1" MinDistance="0" MaxDistance="19" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

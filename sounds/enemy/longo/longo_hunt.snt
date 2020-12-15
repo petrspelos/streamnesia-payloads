@@ -1,0 +1,13 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+        <Sound File="longo/Appunti03.ogg" />
+        <Sound File="longo/Dai01.ogg" />
+        <Sound File="longo/Dai02.ogg" />
+        <Sound File="longo/Dai03.ogg" />
+  		<Sound File="longo/Formule04.ogg" />
+		<Sound File="longo/Solutosolvente03.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.5" MinDistance="0" MaxDistance="20" Random="1" Interval="-1" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

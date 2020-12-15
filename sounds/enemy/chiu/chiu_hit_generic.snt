@@ -1,0 +1,11 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="chiu/hit_generic01.ogg" />
+  		<Sound File="chiu/hit_generic02.ogg" />
+  		<Sound File="chiu/hit_generic03.ogg" />
+  		<Sound File="chiu/hit_generic04.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1" MinDistance="0" MaxDistance="12" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="False" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

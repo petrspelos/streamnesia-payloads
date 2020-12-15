@@ -1,0 +1,13 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+		<Sound File="chiu/Baba.ogg" />
+		<Sound File="chiu/Buongiorno.ogg" />
+		<Sound File="chiu/Chiubreve.ogg" />
+		<Sound File="chiu/Chiurabbiosoduevolte.ogg" />
+		<Sound File="chiu/Seduti.ogg" />
+		<Sound File="chiu/Tiprendo.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.2" MinDistance="0" MaxDistance="20" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

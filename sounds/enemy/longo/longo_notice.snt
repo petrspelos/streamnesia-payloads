@@ -1,0 +1,13 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+		<Sound File="longo/Cosaestato01.ogg" />
+		<Sound File="longo/Cosaestato02.ogg" />
+  		<Sound File="longo/Interrogato.ogg" />
+  		<Sound File="longo/Munzoncino02.ogg" />
+		<Sound File="longo/Potete.ogg" />
+		<Sound File="longo/Volontario02.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.5" MinDistance="0" MaxDistance="20" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

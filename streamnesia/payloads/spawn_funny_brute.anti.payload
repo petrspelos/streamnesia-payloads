@@ -1,0 +1,4 @@
+SetMessageExact("Funny brute left...", 0.0f);
+SetEntityActive("StreamnesiaFunnyBrute", false);
+FadeEnemyToSmoke("StreamnesiaFunnyBrute", true);
+PlayGuiSound("sounds/enemy/chiu/chiu_giveup.snt", 1.0f);

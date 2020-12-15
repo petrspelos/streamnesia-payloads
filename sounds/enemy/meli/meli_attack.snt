@@ -1,0 +1,13 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="meli/Addio.ogg" />
+		<Sound File="meli/Prendiquesto.ogg" />
+  		<Sound File="meli/Scarso.ogg" />
+		<Sound File="meli/Tiboccio.ogg" />
+		<Sound File="meli/Tre01.ogg" />
+  		<Sound File="meli/Uatta.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.2" MinDistance="0" MaxDistance="20" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="False" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

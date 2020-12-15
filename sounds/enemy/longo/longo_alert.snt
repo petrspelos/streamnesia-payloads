@@ -1,0 +1,23 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+		<Sound File="longo/Appunti02.ogg" />
+		<Sound File="longo/Appunti03.ogg" />
+  		<Sound File="longo/Chiesa01.ogg" />
+  		<Sound File="longo/Chiesa02.ogg" />
+  		<Sound File="longo/Elencoargomenti.ogg" />
+        <Sound File="longo/Finitodichiacchierare02.ogg" />
+  		<Sound File="longo/Formule02.ogg" />
+		<Sound File="longo/Ionicocovalente02.ogg" />
+  		<Sound File="longo/Laboratorio02.ogg" />
+		<Sound File="longo/Pecora02.ogg" />
+		<Sound File="longo/Pecora03.ogg" />
+  		<Sound File="longo/Perdonate01.ogg" />
+  		<Sound File="longo/Solutosolvente02.ogg" />
+		<Sound File="longo/Terminale02.ogg" />
+		<Sound File="longo/Tuttoillibro02.ogg" />
+		<Sound File="longo/Uccio01.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.4" MinDistance="0" MaxDistance="19" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>

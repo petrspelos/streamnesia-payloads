@@ -1,0 +1,12 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="longo/organic_walk01.ogg" />
+		<Sound File="longo/organic_walk02.ogg" />
+		<Sound File="longo/organic_walk03.ogg" />
+		<Sound File="longo/organic_walk04.ogg" />
+		<Sound File="longo/organic_walk05.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.4" MinDistance="0" MaxDistance="16" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="False" Loop="False" Use3D="True" Blockable="True" BlockVolumeMul="0.8" Priority="0" />
+</SOUNDENTITY>
