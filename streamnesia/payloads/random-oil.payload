@@ -1,0 +1,3 @@
+float oilValue = RandFloat(0.0f, 100.0f);
+SetPlayerLampOil(oilValue);
+SetMessageExact("Your oil is now at " + oilValue + "%.", 0.0f);

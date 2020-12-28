@@ -1,0 +1,26 @@
+float movDiffX = GetPlayerPosX() - GetGlobalVarFloat("Streamnesia_JumpPos_X");
+float movDiffY = GetPlayerPosY() - GetGlobalVarFloat("Streamnesia_JumpPos_Y");
+float movDiffZ = GetPlayerPosZ() - GetGlobalVarFloat("Streamnesia_JumpPos_Z");
+
+movDiffX = movDiffX > 1.5f ? 1.5f : movDiffX;
+movDiffY = movDiffY > 1.5f ? 1.5f : movDiffY;
+movDiffZ = movDiffZ > 1.5f ? 1.5f : movDiffZ;
+
+float targetX = GetPlayerPosX() + movDiffX;
+float targetY = GetPlayerPosY() + movDiffY;
+float targetZ = GetPlayerPosZ() + movDiffZ;
+
+if(GetEntityExists("StreamnesiaBrute"))
+{{
+    SetEntityActive("StreamnesiaBrute", true);
+}}
+else
+{{
+    CreateEntityAtFirstArea("StreamnesiaBrute", "servant_brute.ent", false);
+}}
+
+SetEnemyDisabled("StreamnesiaBrute", true);
+SetEntityPos("StreamnesiaBrute", targetX, targetY, targetZ);
+
+PlayGuiSound("24_iron_maiden.ogg", 1.0f);
+GiveSanityDamage(10.0f, true);

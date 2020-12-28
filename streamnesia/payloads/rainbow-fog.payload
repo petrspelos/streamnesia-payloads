@@ -1,0 +1,3 @@
+SetFogActive(true);
+SetFogProperties(2.0f, 20.0f, 0.6f, false);
+SetFogColor(RandFloat(0.0f, 1.0f), RandFloat(0.0f, 1.0f), RandFloat(0.0f, 1.0f), 1.0f);

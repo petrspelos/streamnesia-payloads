@@ -7,7 +7,7 @@
         ]
     },
     {
-        "Name": "Give full lantern oil",
+        "Name": "Full lantern oil",
         "Sequence": [
             { "File": "full-oil.payload", "Delay": "00:00:00" }
         ]
@@ -15,14 +15,16 @@
     {
         "Name": "Jumpscare",
         "Sequence": [
-            { "File": "jumpscare.payload", "Delay": "00:00:00" }
+            { "File": "jumpscare.setup.payload", "Delay": "00:00:03" },
+            { "File": "jumpscare.exec.payload", "Delay": "00:00:03" },
+            { "File": "jumpscare.clean.payload", "Delay": "00:00:04" }
         ]
     },
     {
-        "Name": "Spawn Brute (10 seconds)",
+        "Name": "Spawn Brute for up to a minute",
         "Sequence": [
             { "File": "spawn-brute.payload", "Delay": "00:00:00" },
-            { "File": "spawn-brute.anti.payload", "Delay": "00:00:20" }
+            { "File": "spawn-brute.anti.payload", "Delay": "00:00:40" }
         ]
     },
     {
@@ -125,6 +127,14 @@
         ]
     },
     {
+        "Name": "Beat the Player",
+        "Sequence": [
+            { "File": "slap.payload", "Delay": "00:00:00" },
+            { "File": "slap.payload", "Delay": "00:00:01" },
+            { "File": "slap.payload", "Delay": "00:00:01" }
+        ]
+    },
+    {
         "Name": "Screen Shake (10 seconds)",
         "Sequence": [
             { "File": "shake.payload", "Delay": "00:00:00" }
@@ -200,10 +210,10 @@
         ]
     },
     {
-        "Name": "Wide Putin",
+        "Name": "Wide Screen",
         "Sequence": [
             { "File": "putin.payload", "Delay": "00:00:00" },
-            { "File": "putin.anti.payload", "Delay": "00:00:15" }
+            { "File": "putin.anti.payload", "Delay": "00:00:10" }
         ]
     },
     {
@@ -283,12 +293,6 @@
         "Sequence": [
             { "File": "screen-spin.payload", "Delay": "00:00:00" },
             { "File": "screen-spin.anti.payload", "Delay": "00:00:07" }
-        ]
-    },
-    {
-        "Name": "UwU nuzzles",
-        "Sequence": [
-            { "File": "uwu.payload", "Delay": "00:00:00" }
         ]
     },
     {
@@ -418,6 +422,27 @@
         "Sequence": [
             { "File": "ghoul.payload", "Delay": "00:00:00" },
             { "File": "ghoul.anti.payload", "Delay": "00:00:10" }
+        ]
+    },
+    {
+        "Name": "Set oil to random percentage",
+        "Sequence": [
+            { "File": "random-oil.payload", "Delay": "00:00:00" }
+        ]
+    },
+    {
+        "Name": "Rainbow Fog",
+        "Sequence": [
+            { "File": "rainbow-fog.payload", "Delay": "00:00:00" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:01" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:02" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:03" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:04" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:05" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:06" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:07" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:08" },
+            { "File": "rainbow-fog.payload", "Delay": "00:00:09" }
         ]
     }
 ]
