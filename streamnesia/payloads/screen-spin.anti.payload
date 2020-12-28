@@ -1,1 +1,1 @@
-FadePlayerRollTo(0.0f, 60.0f, 60.0f);
+FadePlayerRollTo(0.0f, 100.0f, 200.0f);

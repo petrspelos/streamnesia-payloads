@@ -1,0 +1,2 @@
+PlaySoundAtEntity("scare", "react_scare.snt", "Player", 0.5f, false);
+GiveSanityDamage(0.1f, true);
