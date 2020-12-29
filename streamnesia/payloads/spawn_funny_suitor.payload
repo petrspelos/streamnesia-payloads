@@ -9,7 +9,7 @@ if(GetEntityExists("StreamnesiaFunnySuitor"))
 else
 {{
     PlayGuiSound("sounds/enemy/meli/meli_notice.snt", 1.0f);
-	CreateEntityAtFirstArea("StreamnesiaFunnySuitor", "entities/enemy/meli_suitor/meli_suitor.ent", true);
+	CreateEntityAtFirstArea("StreamnesiaFunnySuitor", "entities/enemy/meli_suitor/meli_suitor_nomusic.ent", true);
 }}
 
 SetEntityPos("StreamnesiaFunnySuitor", baseX + 2.0f, baseY, baseZ);
