@@ -116,15 +116,15 @@
 				<Event Time="1.3" Type="PlaySound" Value="sounds/enemy/chiu/chiu_keys_walk" />
                 <Event Time="1.5" Type="Step" Value="" />
             </Animation>
-            <Animation File="servant_brute/animations/attack_short1.dae_anim" Name="SwingClaws01" SpecialEventTime="0.65" Speed="1.2">
+            <Animation File="servant_brute/animations/attack_short1.dae_anim" Name="SwingClaws01" SpecialEventTime="0.65" Speed="1.1">
 				<Event Time="0.1" Type="PlaySound" Value="sounds/enemy/brute/metal_walk" />
                 <Event Time="0.4" Type="PlaySound" Value="sounds/enemy/chiu/chiu_attack" />
             </Animation>
-            <Animation File="servant_brute/animations/attack_short2.dae_anim" Name="SwingClaws02" SpecialEventTime="0.5" Speed="1.2">
+            <Animation File="servant_brute/animations/attack_short2.dae_anim" Name="SwingClaws02" SpecialEventTime="0.5" Speed="1.1">
 				<Event Time="0.2" Type="PlaySound" Value="sounds/enemy/brute/metal_walk" />
                 <Event Time="0.4" Type="PlaySound" Value="sounds/enemy/chiu/chiu_attack" />
             </Animation>
-            <Animation File="servant_brute/animations/attack_run.dae_anim" Name="SwingLaunch" SpecialEventTime="0.45" Speed="1.2">
+            <Animation File="servant_brute/animations/attack_run.dae_anim" Name="SwingLaunch" SpecialEventTime="0.45" Speed="1.1">
 				<Event Time="0.1" Type="PlaySound" Value="sounds/enemy/brute/metal_run" />
                 <Event Time="0.2" Type="PlaySound" Value="sounds/enemy/chiu/chiu_attack" />
                 <Event Time="0.3" Type="Step" Value="" />
@@ -133,7 +133,7 @@
             <Animation File="servant_brute/animations/break_door.dae_anim" Name="BreakDoor" SpecialEventTime="0.5" Speed="1.1">
                 <Event Time="0.2" Type="PlaySound" Value="sounds/enemy/brute/metal_run" />
             </Animation>
-            <Animation File="servant_brute/animations/flinch.dae_anim" Name="Flinch" SpecialEventTime="0" Speed="1">
+            <Animation File="servant_brute/animations/flinch.dae_anim" Name="Flinch" SpecialEventTime="0" Speed="0.9">
                 <Event Time="0.1" Type="PlaySound" Value="sounds/enemy/chiu/chiu_flinch" />
             </Animation>
             <Animation File="servant_brute/animations/idle_extra1.dae_anim" Name="IdleExtra1" SpecialEventTime="0" Speed="1">
@@ -157,7 +157,7 @@
         <Var Name="SightRange" Value="21" />
         <Var Name="DarknessSightRange" Value="6" />
         <Var Name="HearVolume" Value="0.5" />
-        <Var Name="FOV" Value="90" />
+        <Var Name="FOV" Value="120" />
         <Var Name="FOVXMul" Value="1" />
         <Var Name="ActivationDistance" Value="500" />
         <Var Name="MaxRegenHealth" Value="100" />
@@ -170,11 +170,11 @@
         <Var Name="AttackMusicPrio" Value="0" />
         <Var Name="PlayerSearchMaxAngle" Value="45" />
         <Var Name="PlayerSearchMinDistMul" Value="0.5" />
-        <Var Name="PlayerSearchMaxDistMul" Value="2" />
-        <Var Name="PlayerSearchTime" Value="15" />
-        <Var Name="PlayerPatrolMaxAngle" Value="110" />
-        <Var Name="PlayerPatrolMinDist" Value="8" />
-        <Var Name="PlayerPatrolMaxDist" Value="18" />
+        <Var Name="PlayerSearchMaxDistMul" Value="4" />
+        <Var Name="PlayerSearchTime" Value="30" />
+        <Var Name="PlayerPatrolMaxAngle" Value="100" />
+        <Var Name="PlayerPatrolMinDist" Value="10" />
+        <Var Name="PlayerPatrolMaxDist" Value="30" />
         <Var Name="Body_Size" Value="1 2 1" />
         <Var Name="Body_Mass" Value="50" />
         <Var Name="Body_AccurateClimbing" Value="true" />
@@ -184,29 +184,29 @@
         <Var Name="Body_CharacterMaxPushMass" Value="20" />
         <Var Name="Body_CharacterPushForce" Value="100" />
         <Var Name="Body_MaxStepSize" Value="0.5" />
-        <Var Name="Body_StepClimbSpeed" Value="6.0" />
+        <Var Name="Body_StepClimbSpeed" Value="6" />
         <Var Name="Body_OffsetRot" Value="0 180 0" />
         <Var Name="Body_OffsetTrans" Value="0 0 0" />
-        <Var Name="Walk_ForwardSpeed" Value="1.3" />
-        <Var Name="Walk_BackwardSpeed" Value="0.5" />
-        <Var Name="Walk_ForwardAcc" Value="2.0" />
-        <Var Name="Walk_ForwardDeacc" Value="18.0" />
+        <Var Name="Walk_ForwardSpeed" Value="1.35" />
+        <Var Name="Walk_BackwardSpeed" Value="0.425" />
+        <Var Name="Walk_ForwardAcc" Value="2.1" />
+        <Var Name="Walk_ForwardDeacc" Value="19" />
         <Var Name="Run_ForwardSpeed" Value="5.4" />
         <Var Name="Run_BackwardSpeed" Value="2.2" />
-        <Var Name="Run_ForwardAcc" Value="4.0" />
-        <Var Name="Run_ForwardDeacc" Value="8.0" />
+        <Var Name="Run_ForwardAcc" Value="4.3" />
+        <Var Name="Run_ForwardDeacc" Value="8.6" />
         <Var Name="TurnSpeedMul" Value="6" />
-        <Var Name="TurnMaxSpeed" Value="14" />
+        <Var Name="TurnMaxSpeed" Value="12" />
         <Var Name="TurnMinBreakAngle" Value="10" />
         <Var Name="TurnBreakMul" Value="2" />
         <Var Name="MoveSpeedAnimMul" Value="1.2" />
-        <Var Name="StoppedToWalkSpeed" Value="0.3" />
-        <Var Name="WalkToStoppedSpeed" Value="0.2" />
-        <Var Name="WalkToRunSpeed" Value="2.7" />
-        <Var Name="RunToWalkSpeed" Value="2.4" />
-        <Var Name="WaterStepSpeedWalk" Value="3.0" />
-        <Var Name="WaterStepSpeedRun" Value="5.0" />
-        <Var Name="WaterStepSpeedMisc" Value="3.0" />
+        <Var Name="StoppedToWalkSpeed" Value="0.15" />
+        <Var Name="WalkToStoppedSpeed" Value="0.1" />
+        <Var Name="WalkToRunSpeed" Value="3.1" />
+        <Var Name="RunToWalkSpeed" Value="2.6" />
+        <Var Name="WaterStepSpeedWalk" Value="3.6" />
+        <Var Name="WaterStepSpeedRun" Value="6" />
+        <Var Name="WaterStepSpeedMisc" Value="3" />
         <Var Name="HitPS_Sword" Value="hit/blood.ps" />
         <Var Name="HitSound_Sword" Value="sounds/enemy/chiu/chiu_hit_generic" />
         <Var Name="HitPS_Club" Value="hit/blood.ps" />
@@ -228,11 +228,11 @@
         <Var Name="NormalDamageSize" Value="1.25 3 2" />
         <Var Name="NormalDamageOffset" Value="0 0 1.3" />
         <Var Name="NormalAttackHitSound" Value="sounds/enemy/chiu/chiu_attack_hit" />
-        <Var Name="NormalAttackDamage" Value="50 100" />
+        <Var Name="NormalAttackDamage" Value="35 70" />
         <Var Name="NormalAttackForce" Value="30 5" />
         <Var Name="NormalAttackStrength" Value="1" />
         <Var Name="NormalDamageType" Value="Slash" />
-        <Var Name="BreakDoorAttackDamage" Value="50 50" />
+        <Var Name="BreakDoorAttackDamage" Value="35 35" />
         <Var Name="BreakDoorAttackForce" Value="30 5" />
         <Var Name="BreakDoorAttackStrength" Value="6" />
         <Var Name="BreakDoorAttackHitSound" Value="sounds/enemy/chiu/chiu_attack_hit" />
@@ -243,11 +243,11 @@
         <Var Name="GroggyDamageCount" Value="1" />
         <Var Name="AlertToHuntDistance" Value="8" />
         <Var Name="AlertToInstantHuntDistance" Value="6" />
-        <Var Name="HuntPauseMinTime" Value="1.25" />
-        <Var Name="HuntPauseMaxTime" Value="2.5" />
+        <Var Name="HuntPauseMinTime" Value="2" />
+        <Var Name="HuntPauseMaxTime" Value="4" />
         <Var Name="IncreaseAlertSpeedDistance" Value="7.5" />
-        <Var Name="IncreasedAlertSpeedMul" Value="1.25" />
-        <Var Name="AlertRunTowardsToHuntLimit" Value="23" />
+        <Var Name="IncreasedAlertSpeedMul" Value="1.375" />
+        <Var Name="AlertRunTowardsToHuntLimit" Value="20" />
         <Var Name="AlertRunTowardsCheckDistance" Value="7" />
         <Var Name="IdleExtraTimeMin" Value="2" />
         <Var Name="IdleExtraTimeMax" Value="4" />
