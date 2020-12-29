@@ -9,7 +9,7 @@ if(GetEntityExists("StreamnesiaFunnyGrunt"))
 else
 {{
     PlayGuiSound("sounds/enemy/longo/longo_notice.snt", 1.0f);
-	CreateEntityAtFirstArea("StreamnesiaFunnyGrunt", "entities/enemy/longo_grunt/longo_grunt.ent", true);
+	CreateEntityAtFirstArea("StreamnesiaFunnyGrunt", "entities/enemy/longo_grunt/longo_grunt_nomusic.ent", true);
 }}
 
 SetEntityPos("StreamnesiaFunnyGrunt", baseX + 2.0f, baseY, baseZ);
