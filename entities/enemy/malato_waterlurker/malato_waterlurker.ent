@@ -24,11 +24,11 @@
         <Var Name="AttackMusicPrio" Value="0" />
         <Var Name="PlayerSearchMaxAngle" Value="45" />
         <Var Name="PlayerSearchMinDistMul" Value="0.5" />
-        <Var Name="PlayerSearchMaxDistMul" Value="2" />
-        <Var Name="PlayerSearchTime" Value="40" />
-        <Var Name="PlayerPatrolMaxAngle" Value="110" />
-        <Var Name="PlayerPatrolMinDist" Value="3.5" />
-        <Var Name="PlayerPatrolMaxDist" Value="15" />
+        <Var Name="PlayerSearchMaxDistMul" Value="4" />
+        <Var Name="PlayerSearchTime" Value="30" />
+        <Var Name="PlayerPatrolMaxAngle" Value="100" />
+        <Var Name="PlayerPatrolMinDist" Value="10" />
+        <Var Name="PlayerPatrolMaxDist" Value="30" />
         <Var Name="Body_Size" Value="1 0.5 1" />
         <Var Name="Body_Mass" Value="50" />
         <Var Name="Body_AccurateClimbing" Value="false" />
@@ -38,26 +38,26 @@
         <Var Name="Body_CharacterMaxPushMass" Value="20" />
         <Var Name="Body_CharacterPushForce" Value="100" />
         <Var Name="Body_MaxStepSize" Value="0.5" />
-        <Var Name="Body_StepClimbSpeed" Value="6.0" />
+        <Var Name="Body_StepClimbSpeed" Value="6" />
         <Var Name="Body_OffsetRot" Value="0 0 0" />
         <Var Name="Body_OffsetTrans" Value="0 0 0" />
         <Var Name="Walk_ForwardSpeed" Value="1.6" />
-        <Var Name="Walk_BackwardSpeed" Value="1.05" />
-        <Var Name="Walk_ForwardAcc" Value="2.0" />
-        <Var Name="Walk_ForwardDeacc" Value="8.0" />
+        <Var Name="Walk_BackwardSpeed" Value="1" />
+        <Var Name="Walk_ForwardAcc" Value="2" />
+        <Var Name="Walk_ForwardDeacc" Value="8" />
         <Var Name="Run_ForwardSpeed" Value="4.2" />
-        <Var Name="Run_BackwardSpeed" Value="2.1" />
-        <Var Name="Run_ForwardAcc" Value="4.0" />
-        <Var Name="Run_ForwardDeacc" Value="8.0" />
+        <Var Name="Run_BackwardSpeed" Value="2" />
+        <Var Name="Run_ForwardAcc" Value="4" />
+        <Var Name="Run_ForwardDeacc" Value="8" />
         <Var Name="TurnSpeedMul" Value="6" />
         <Var Name="TurnMaxSpeed" Value="5" />
         <Var Name="TurnMinBreakAngle" Value="10" />
         <Var Name="TurnBreakMul" Value="1" />
         <Var Name="MoveSpeedAnimMul" Value="4.7" />
-        <Var Name="StoppedToWalkSpeed" Value="0.075" />
-        <Var Name="WalkToStoppedSpeed" Value="0.03" />
-        <Var Name="WalkToRunSpeed" Value="1.35" />
-        <Var Name="RunToWalkSpeed" Value="1.1" />
+        <Var Name="StoppedToWalkSpeed" Value="0.05" />
+        <Var Name="WalkToStoppedSpeed" Value="0.02" />
+        <Var Name="WalkToRunSpeed" Value="1.2" />
+        <Var Name="RunToWalkSpeed" Value="1" />
         <Var Name="HitPS_Sword" Value="" />
         <Var Name="HitSound_Sword" Value="" />
         <Var Name="HitPS_Club" Value="" />
@@ -77,8 +77,8 @@
         <Var Name="AmbientMaxTime_Hunt" Value="1.25" />
         
         <Var Name="NormalDamageSize" Value="1.1 1.2 1.3" />
-        <Var Name="NormalDamageOffset" Value="0 0 1.0" />
-        <Var Name="NormalAttackDistance" Value="1.9" />
+        <Var Name="NormalDamageOffset" Value="0 0 1" />
+        <Var Name="NormalAttackDistance" Value="1.8" />
         <Var Name="NormalAttackHitSound" Value="sounds/enemy/malato/malato_attack" />
         <Var Name="NormalAttackDamage" Value="25 50" />
         <Var Name="NormalAttackForce" Value="30 5" />
@@ -91,7 +91,7 @@
         
         <Var Name="PlayerDetectionHeight" Value="0.68" />
         <Var Name="EatDamage" Value="10" />
-        <Var Name="AfterAttackPauseTime" Value="1.5" />
+        <Var Name="AfterAttackPauseTime" Value="2" />
         
         <Var Name="SplashPS_Walk" Value="waterlurker_walk_splash" />
 		<Var Name="SplashPS_Run" Value="waterlurker_run_splash" />
