@@ -1,0 +1,17 @@
+float baseX = GetPlayerPosX();
+float baseY = GetPlayerPosY();
+float baseZ = GetPlayerPosZ();
+
+for(int a = 0; a < 5; a++)
+{{
+    CreateEntityAtFirstArea("{0}wine01" + a, "wine01.ent", false);
+    SetEntityPos("{0}wine01" + a, baseX + 1.0f + (a * 0.1f), baseY + 0.5f, baseZ);
+}}
+
+for(int b = 0; b < 5; b++)
+{{
+    CreateEntityAtFirstArea("{0}wine02" + b, "wine02.ent", false);
+    SetEntityPos("{0}wine02" + b, baseX + 1.0f + (b * 0.1f), baseY + 0.5f, baseZ + 0.5f);
+}}
+
+SetMessageExact("We spawned wine! Cheers!", 0.0f);

@@ -1,0 +1,2 @@
+SetPlayerHealth(GetLocalVarFloat("StreamnesiaPlayerHealth"));
+SetMessageExact("Restored your HP to their original value...", 0.0f);

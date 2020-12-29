@@ -1,0 +1,2 @@
+FadeGlobalSoundVolume(0.0f, 0.0f);
+SetMessageExact("You're deaf for 10 seconds...", 0.0f);

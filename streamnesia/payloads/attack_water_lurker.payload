@@ -1,0 +1,5 @@
+CreateParticleSystemAtEntity("Player_particles/hit/blood", "particles/hit/blood.ps", "Player", false);
+PlayGuiSound("sounds/water_lurker/water_lurker_attack.snt", 1.0f);
+PlayGuiSound("sounds/water_lurker/water_lurker_eat.snt", 1.0f);
+GivePlayerDamage(RandFloat(15.0f, 30.0f), "BloodSplat", true, false);
+StartScreenShake(0.1f, 0.1f, 0.2f, 0.0f);
