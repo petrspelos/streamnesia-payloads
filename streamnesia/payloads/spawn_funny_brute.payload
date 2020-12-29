@@ -9,7 +9,7 @@ if(GetEntityExists("StreamnesiaFunnyBrute"))
 else
 {{
     PlayGuiSound("sounds/enemy/chiu/chiu_notice.snt", 1.0f);
-	CreateEntityAtFirstArea("StreamnesiaFunnyBrute", "entities/enemy/chiu_brute/chiu_brute.ent", true);
+	CreateEntityAtFirstArea("StreamnesiaFunnyBrute", "entities/enemy/chiu_brute/chiu_brute_nomusic.ent", true);
 }}
 
 SetEntityPos("StreamnesiaFunnyBrute", baseX + 2.0f, baseY, baseZ);
