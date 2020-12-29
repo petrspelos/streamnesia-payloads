@@ -1,2 +1,2 @@
 SetPlayerFallDamageDisabled(true);
-SetMessageExact("No fall damage for 30 seconds...", 0.0f);
+SetMessageExact("No fall damage for one minute...", 0.0f);
