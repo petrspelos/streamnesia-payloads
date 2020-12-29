@@ -510,13 +510,6 @@
         ]
     },
     {
-        "Name": "Epic Sax Guy (1 minute)",
-        "Sequence": [
-            { "File": "epic_sax_guy.payload", "Delay": "00:00:00" },
-            { "File": "epic_sax_guy.anti.payload", "Delay": "00:01:00" }
-        ]
-    },
-    {
         "Name": "No Fall Damage (1 minute)",
         "Sequence": [
             { "File": "fall_damage.payload", "Delay": "00:00:00" },
