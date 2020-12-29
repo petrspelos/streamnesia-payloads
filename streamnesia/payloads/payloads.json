@@ -495,5 +495,59 @@
         "Sequence": [
             { "File": "attack_suitor.payload", "Delay": "00:00:00" }
         ]
+    },
+    {
+        "Name": "Water Monster Slap",
+        "Sequence": [
+            { "File": "attack_water_lurker.payload", "Delay": "00:00:00" }
+        ]
+    },
+    {
+        "Name": "Deaf (20 seconds)",
+        "Sequence": [
+            { "File": "deaf.payload", "Delay": "00:00:00" },
+            { "File": "deaf.anti.payload", "Delay": "00:00:20" }
+        ]
+    },
+    {
+        "Name": "Epic Sax Guy (1 minute)",
+        "Sequence": [
+            { "File": "epic_sax_guy.payload", "Delay": "00:00:00" },
+            { "File": "epic_sax_guy.anti.payload", "Delay": "00:01:00" }
+        ]
+    },
+    {
+        "Name": "No Fall Damage (1 minute)",
+        "Sequence": [
+            { "File": "fall_damage.payload", "Delay": "00:00:00" },
+            { "File": "fall_damage.anti.payload", "Delay": "00:01:00" }
+        ]
+    },
+    {
+        "Name": "Enemies ignore the player (10 seconds)",
+        "Sequence": [
+            { "File": "harmless_enemies.payload", "Delay": "00:00:00" },
+            { "File": "harmless_enemies.anti.payload", "Delay": "00:00:10" }
+        ]
+    },
+    {
+        "Name": "Invincibility (30 seconds)",
+        "Sequence": [
+            { "File": "invincible.payload", "Delay": "00:00:00" },
+            { "File": "invincible.anti.payload", "Delay": "00:00:30" }
+        ]
+    },
+    {
+        "Name": "Low pitch (1 minute)",
+        "Sequence": [
+            { "File": "low_pitch.payload", "Delay": "00:00:00" },
+            { "File": "low_pitch.anti.payload", "Delay": "00:01:00" }
+        ]
+    },
+    {
+        "Name": "Spawn Wine Bottles",
+        "Sequence": [
+            { "File": "wine_bottles.payload", "Delay": "00:00:00" }
+        ]
     }
 ]
