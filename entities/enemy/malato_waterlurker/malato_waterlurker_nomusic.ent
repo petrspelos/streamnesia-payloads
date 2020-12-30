@@ -90,7 +90,7 @@
         <Var Name="BreakDoorAttackHitSound" Value="sounds/enemy/malato/malato_attack" />
         
         <Var Name="PlayerDetectionHeight" Value="0.68" />
-        <Var Name="EatDamage" Value="10" />
+        <Var Name="EatDamage" Value="15" />
         <Var Name="AfterAttackPauseTime" Value="2" />
         
         <Var Name="SplashPS_Walk" Value="waterlurker_walk_splash" />
