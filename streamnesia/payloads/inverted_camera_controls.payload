@@ -1,0 +1,2 @@
+SetPlayerLookSpeedMul(-1.0f);
+SetMessageExact("Enjoy inverted camera controls buddy...", 0.0f);
