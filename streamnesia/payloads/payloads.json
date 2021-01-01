@@ -542,5 +542,12 @@
         "Sequence": [
             { "File": "wine_bottles.payload", "Delay": "00:00:00" }
         ]
+    },
+    {
+        "Name": "Inverted camera controls (30 seconds)",
+        "Sequence": [
+            { "File": "inverted_camera_controls.payload", "Delay": "00:00:00" },
+            { "File": "decrease_player_look_speed.anti.payload", "Delay": "00:00:30" }
+        ]
     }
 ]
